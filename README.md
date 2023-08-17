@@ -1,17 +1,15 @@
-# voyage-tasks
+# Setup
+- Run `npm install`
+- Rename `.env.example` to `.env`
+- Follow this guide to make a vercel postgres database: [guide](https://vercel.com/docs/storage/vercel-postgres/quickstart). Follow only until step 2 and copy the database URL.
+- Copy the secrets under the `.env.local` in the vercel postgres dashboard section after creating a database and paste the secrets in your `.env` file
+- Run `npx prisma migrate dev` to create the tables in your database
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
-
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
-
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
-
-> Own it & Make it your Own!
+# Tech stack
+- Next.js + React + Typescript
+- Tailwind 
+- Prisma + Vercel Postgres
+- UI Library: Mantine
 
 ## Team Documents
 
@@ -26,3 +24,5 @@ Meeting Agenda templates (located in the `/docs` directory in this repo):
 - Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
 - Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
 - Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+
+[Keys to a well written README](https://tinyurl.com/yk3wubft).
