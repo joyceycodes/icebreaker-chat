@@ -14,7 +14,7 @@ datasource db {
 
 model rooms {
   room_id     Int     @id @default(autoincrement())
-  question_num Int @default(0) // 0 means the game has not started
+  current_question Int @default(0) // 0 means the game has not started
 }
 
 model questions {
