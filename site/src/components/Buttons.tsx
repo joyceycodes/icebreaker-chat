@@ -1,14 +1,19 @@
 "use client"
+
 import { Button } from '@mantine/core';
 
-interface ButtonsProps {
+interface ButtonProps {
+    size: "xs" | "sm" | "md" | "lg" | "xl";
     text: string;
     onClick: () => void;
 }
 
-export function Buttons({text, onClick}:ButtonsProps){
+export function Buttons({
+    size,
+    text, 
+    onClick}:ButtonProps){
     return (
-        <Button variant="outline" radius="lg" size="xl" onClick={onClick}>
+        <Button variant="outline" radius="lg" size={size} onClick={onClick}>
         {text}
       </Button>
     )

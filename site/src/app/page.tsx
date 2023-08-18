@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Will be replace by button component  */}
         <div className="relative flex place-items-center before:absolute ">
-          <Buttons text="Create Room" onClick={() => console.log("Room has been created")}/>
+          <Buttons text="Create Room" size="lg" onClick={() => console.log("Room has been created")}/>
         </div>
         {/*   */}
 

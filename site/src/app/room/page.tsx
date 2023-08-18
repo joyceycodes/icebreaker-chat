@@ -21,7 +21,7 @@ export default function Home() {
 
         {/* Will be replace by button component  */}
         <div className="relative flex place-items-center before:absolute ">
-          <Buttons text="next question" onClick={() => console.log("Next question")} />
+          <Buttons text="next question" size="lg" onClick={() => console.log("Next question")} />
         </div>
         {/*   */}
 
