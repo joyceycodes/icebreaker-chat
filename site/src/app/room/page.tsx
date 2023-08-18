@@ -1,5 +1,8 @@
+'use client'
+
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Buttons } from "@/components/Buttons";
 
 import { MantineProvider } from "@mantine/core";
 import Image from "next/image";
@@ -18,7 +21,7 @@ export default function Home() {
 
         {/* Will be replace by button component  */}
         <div className="relative flex place-items-center before:absolute ">
-          START / NEXT{" "}
+          <Buttons text="next question" onClick={() => console.log("Next question")} />
         </div>
         {/*   */}
 
