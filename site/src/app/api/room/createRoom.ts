@@ -1,5 +1,4 @@
 import { getBaseUrl } from '@/lib/server/getBaseUrl';
-// import { scheduleRoomDeletion } from './deleteRoom'; // Import the scheduled deletion function
 
 type room = {
 	room_id: number;
