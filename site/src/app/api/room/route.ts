@@ -10,6 +10,7 @@ export async function POST(req: Request) {
 		});
 
 		return NextResponse.json({
+			// only room_id is being returned. fetch call is expecting room_id, current_question, created_at
 			room_id: new_room.room_id,
 		});
 	} catch (error) {
