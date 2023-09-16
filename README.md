@@ -1,3 +1,18 @@
+# READ ME
+
+# ICE BREAKER
+A game designed to help you break the ice with strangers and turn those awkward moments into memorable interactions
+
+## [Link to play](https://v45-tier3-team-51-1sko.vercel.app/)
+
+<kbd>
+<img src="https://res.cloudinary.com/dsioshcio/image/upload/v1694896529/Screenshot_2023-09-16_at_13.32.16_osmwwy.png" width="700px" border="1px"/>
+</kbd>
+<kbd>
+ <img src="https://res.cloudinary.com/dsioshcio/image/upload/v1694896530/Screenshot_2023-09-16_at_13.32.30_vitlow.png" width="700px" style="border: 1px solid black"/>
+</kbd>
+
+
 # Setup
 - Run `npm install`
 - Set up database
@@ -24,19 +39,3 @@
 - Pusher Channels 
 - Prisma + Vercel Postgres
 - UI Library: Mantine
-
-## Team Documents
-
-You may find these helpful as you work together to organize your project.
-
-- [Team Project Ideas](./docs/team_project_ideas.md)
-- [Team Decision Log](./docs/team_decision_log.md)
-
-Meeting Agenda templates (located in the `/docs` directory in this repo):
-
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
-
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
