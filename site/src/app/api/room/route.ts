@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   try {
     // Create a new room with the calculated room_id nextRoomId
     const new_room = await prisma.rooms.create({
-      data: {}
+      data: { current_question: 0 }
     });
     return NextResponse.json({ room_id: new_room.room_id });
     
