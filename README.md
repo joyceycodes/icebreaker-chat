@@ -25,7 +25,7 @@ Icebreaker is a game designed to help you break the ice with strangers and turn 
 
 # Highlighted Features
 ### Shareable Room URL Link
-<img src="https://res.cloudinary.com/dclcbz6dx/image/upload/v1694988173/firefox_qpwZMBM2V9_lpfyib.gif" width="700px" border="1px"/>
+<img src="https://res.cloudinary.com/dclcbz6dx/image/upload/v1694990186/firefox_XSp9fygHB0_mxcm7d.gif" width="700px" border="1px"/>
 
 ### Real-time game updates
 <img src="https://res.cloudinary.com/dclcbz6dx/image/upload/v1694989760/firefox_S9d0a28xp2_gqxx4i.gif" width="700px" border="1px"/>
