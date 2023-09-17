@@ -60,9 +60,11 @@ return (
           <Display text={questionText} />
         </div>
         <div className="mb-6 text-center">
-			{questionText.includes("Waiting for the game to start...")
-			 ? <Buttons text='Start Game' size='lg' onClick={nextQuestionText} />
-			 : <Buttons text='Next question' size='lg' onClick={nextQuestionText} />
+			{questionText.includes("Waiting for the game to start...") &&
+			 <Buttons text='Start Game' size='lg' onClick={nextQuestionText} />
+			}
+			{!questionText.includes("That's all, thanks for playing!") && !questionText.includes("Waiting for the game to start...")
+			 && <Buttons text='Next question' size='lg' onClick={nextQuestionText} />
 			}
 		</div>
       </div>
