@@ -1,4 +1,6 @@
+
 "use client";
+
 import { CopyButton, Button } from "@mantine/core";
 import { usePathname } from "next/navigation";
 
@@ -21,7 +23,7 @@ export function CopyLink({ hostName }: props) {
             variant="white"
             className="px-3 text-lg"
           >
-            {copied ? "Copy" : "Copy"}
+            {"Copy"}
           </Button>
         )}
       </CopyButton>
