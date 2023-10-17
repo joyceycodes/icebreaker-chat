@@ -59,7 +59,7 @@ export const PATCH = async (req: Request, { params }: { params: { room_id: strin
         return new NextResponse("Cannot update the current room's question", { status: 404 });
       }
 
-      pusherServer.trigger(`${room_id}`, 'next-question', current_question_query.question)
+      await pusherServer.trigger(`${room_id}`, 'next-question', current_question_query.question)
 
       return new NextResponse("", {status:200});
   } catch(error){
