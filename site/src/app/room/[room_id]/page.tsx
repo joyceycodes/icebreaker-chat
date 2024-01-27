@@ -3,8 +3,6 @@
 import { Buttons } from '@/components/Buttons';
 import { CopyLink } from '@/components/CopyLink';
 import { Display } from '@/components/Display';
-import { Footer } from '@/components/Footer';
-import { HeaderAction } from '@/components/Header';
 import { pusherClient } from '@/lib/pusher';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
@@ -39,7 +37,7 @@ export default function Home() {
 			pusherClient.unsubscribe(`${roomId}`)
 			pusherClient.unbind('next-question', questionTextHandler)
 		}
-	},[])
+	})
 
 
 	const nextQuestionText = async () => {
@@ -49,9 +47,7 @@ export default function Home() {
 }
 
 return (
-    <main className="flex flex-col min-h-screen p-4">
-      <HeaderAction />
-      <div className="flex-grow flex flex-col items-center justify-center">
+	<>
         <div style={{ display: questionText.includes("Waiting for the game to start...") ? "" : "none" }}
 		className="mb-6 text-center" >
 			<CopyLink hostName={window.location.hostname} />
@@ -67,9 +63,8 @@ return (
 			 && <Buttons text='Next question' size='lg' onClick={nextQuestionText} />
 			}
 		</div>
-      </div>
-      <Footer />
-    </main>
+	</>
+   
   );
 
 }
