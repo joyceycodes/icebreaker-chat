@@ -25,6 +25,7 @@ async function main() {
         { question: "What is your biggest fear?"},
         { question: "If you could have a conversation with your future self, what advice or questions would you have?"},
         { question: "Favorite childhood memory?" },
+        { question: "That's all, thanks for playing!"}
     ], skipDuplicates: true,}
 
     )
