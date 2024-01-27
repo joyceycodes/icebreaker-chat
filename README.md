@@ -1,7 +1,7 @@
 # ICEBREAKER
 Icebreaker is a game designed to help you break the ice with strangers and turn those awkward moments into memorable interactions.
 
-## [Link to play](https://chingu.sabih.me/)
+## [Link to play](https://icebreaker-six.vercel.app/)
 
 <kbd>
 <img src="https://res.cloudinary.com/dsioshcio/image/upload/v1694896529/Screenshot_2023-09-16_at_13.32.16_osmwwy.png" width="700px" border="1px"/>
